@@ -15,11 +15,11 @@ documentation = "https://docs.rs/console_log"
 version = "0.4"
 
 [dependencies.web-sys]
-version = "0.3"
+path="../wasm-bindgen/crates/web-sys"
 features = ["console"]
 
 [dependencies.wasm-bindgen]
-version = "0.2"
+path="../wasm-bindgen"
 optional = true
 
 [features]
